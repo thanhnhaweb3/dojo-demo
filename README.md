@@ -2,6 +2,8 @@
 
 https://dojoengine.org/tutorials/dojo-starter
 
+https://github.com/celestiaorg/campmamo-demos
+
 ssh-keygen -t rsa -b 2048 -C "your@gmail.com"
 
 sudo apt update
