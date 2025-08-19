@@ -1,4 +1,4 @@
-# dojo-demo on ubuntu 25.04
+# dojo-demo on ubuntu 25.04 (campmamo.olym3.xyz)
 
 sudo apt update
 
