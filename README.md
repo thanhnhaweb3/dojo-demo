@@ -10,13 +10,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 
 
-# Scarb (Cairo)
+# Clone asdf and Install Scarb (Cairo)
 
-curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh -s -- -v nightly
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.dev | sh
-
-curl -L https://github.com/software-mansion/scarb/releases/latest/download/scarb-installer.sh | bash
+asdf plugin add scarb
 
 scarb --version
 
