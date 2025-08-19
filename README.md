@@ -1,5 +1,7 @@
 # dojo-demo on ubuntu 25.04 (campmamo.olym3.xyz)
 
+https://dojoengine.org/tutorials/dojo-starter
+
 sudo apt update
 
 sudo apt install -y build-essential pkg-config libssl-dev clang llvm-dev libclang-dev
