@@ -6,6 +6,13 @@ sudo apt install -y build-essential pkg-config libssl-dev clang llvm-dev libclan
 
 sudo apt install -y libc6-dev gcc-multilib g++-multilib
 
+#nvm
+
+https://github.com/nvm-sh/nvm#install--update-script
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+
 
 # Rust & Cargo:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
