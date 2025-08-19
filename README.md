@@ -28,6 +28,20 @@ scarb --version
 
 # Sozo (Dojo CLI)
 
+sudo rm -rf /tmp/*
+
+sudo rm -rf ~/.cargo/registry
+
+sudo rm -rf ~/.cargo/git
+
+## Another target
+
+mkdir -p ~/cargo-target
+
+export CARGO_TARGET_DIR=~/cargo-target
+
+## sozo build
+
 cargo install --locked sozo --git https://github.com/dojoengine/dojo.git --tag v0.7.0
 
 sozo --version
