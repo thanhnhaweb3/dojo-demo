@@ -2,7 +2,10 @@
 
 sudo apt update
 
-sudo apt install -y pkg-config libssl-dev build-essential curl git
+sudo apt install -y build-essential pkg-config libssl-dev clang llvm-dev libclang-dev
+
+sudo apt install -y libc6-dev gcc-multilib g++-multilib
+
 
 # Rust & Cargo:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
