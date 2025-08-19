@@ -24,7 +24,7 @@ rustup default 1.79.0
 
 # Clone asdf and Install Scarb (Cairo)
 
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.18.0
 
 asdf plugin add scarb
 
