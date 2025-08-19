@@ -15,7 +15,7 @@ source /home/<=path-to-your-app=>
 dojoup install
 
 
-dojoup use 1.5.0                                       # cairo, scarb, sozo, katana, torii
+dojoup use 1.6.2                                       # cairo, scarb, sozo, katana, torii
 
 
 git clone <=repo=>
