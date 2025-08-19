@@ -9,7 +9,7 @@ git lfs install        # run once
 curl -L https://install.dojoengine.org | bash          # installs dojoup
 
 
-source /home/<path-to-your-app>
+source /home/<=path-to-your-app=>
 
 
 dojoup install
@@ -18,7 +18,7 @@ dojoup install
 dojoup use 1.5.0                                       # cairo, scarb, sozo, katana, torii
 
 
-git clone <repo>
+git clone <=repo=>
 
 
 cd whack-a-mole-dojo/backend
