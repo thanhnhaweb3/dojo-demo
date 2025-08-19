@@ -28,8 +28,6 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.18.0
 
 source ~/.bashrc
 
-asdf plugin add scarb
-
 scarb --version
 
 # Sozo (Dojo CLI)
