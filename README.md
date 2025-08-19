@@ -2,6 +2,8 @@
 
 https://dojoengine.org/tutorials/dojo-starter
 
+ssh-keygen -t rsa -b 2048 -C "your@gmail.com"
+
 sudo apt update
 
 sudo apt install -y build-essential pkg-config libssl-dev clang llvm-dev libclang-dev
