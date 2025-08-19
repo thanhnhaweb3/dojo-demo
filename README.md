@@ -12,6 +12,8 @@ source $HOME/.cargo/env
 
 # Scarb (Cairo)
 
+curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh -s -- -v nightly
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.starkup.dev | sh
 
 curl -L https://github.com/software-mansion/scarb/releases/latest/download/scarb-installer.sh | bash
