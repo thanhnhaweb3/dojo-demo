@@ -8,7 +8,7 @@ sudo apt install -y build-essential pkg-config libssl-dev clang llvm-dev libclan
 
 sudo apt install -y libc6-dev gcc-multilib g++-multilib
 
-#nvm
+# nvm
 
 https://github.com/nvm-sh/nvm#install--update-script
 
