@@ -10,8 +10,12 @@ sudo apt install -y libc6-dev gcc-multilib g++-multilib
 # Rust & Cargo:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-
 source $HOME/.cargo/env
+
+# SOJO
+
+https://dojoengine.org/toolchain/sozo
+
 
 ## Install Rust 1.79.0
 rustup install 1.79.0
