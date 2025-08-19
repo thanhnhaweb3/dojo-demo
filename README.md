@@ -7,7 +7,12 @@ sudo apt install -y pkg-config libssl-dev build-essential curl git
 # Rust & Cargo:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+
 source $HOME/.cargo/env
+
+## Install Rust 1.79.0
+rustup install 1.79.0
+rustup default 1.79.0
 
 
 # Clone asdf and Install Scarb (Cairo)
