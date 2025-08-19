@@ -1,5 +1,11 @@
 # dojo-demo on ubuntu 25.04 (campmamo.olym3.xyz)
 
+# 20 slot VPS Google Cloud for testing DOJO. 
+
+Submit here: https://forms.gle/ThQ45U2SUNaNDJfp8
+
+# Prepairing:
+
 https://dojoengine.org/tutorials/dojo-starter
 
 https://github.com/celestiaorg/campmamo-demos
