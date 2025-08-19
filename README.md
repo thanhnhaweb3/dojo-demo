@@ -1,5 +1,28 @@
 # dojo-demo on ubuntu 25.04
 
+sudo apt update
+
+sudo apt install -y pkg-config libssl-dev build-essential curl git
+
+# Rust & Cargo:
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+source $HOME/.cargo/env
+
+
+# Scarb
+curl -L https://github.com/software-mansion/scarb/releases/latest/download/scarb-installer.sh | bash
+
+scarb --version
+
+# Sozo (Dojo CLI)
+
+cargo install --locked sozo --git https://github.com/dojoengine/dojo.git --tag v0.7.0
+
+sozo --version
+
+# LFS
+
 sudo apt install git-lfs # or use your package manager
 
 git lfs install        # run once
