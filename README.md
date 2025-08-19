@@ -18,10 +18,10 @@ dojoup install
 dojoup use 1.6.2                                       # cairo, scarb, sozo, katana, torii
 
 
-git clone <=repo=>
+git clone https://github.com/gbarros/dojo-demo
 
 
-cd whack-a-mole-dojo/backend
+cd dojo-demo/dojo-backend
 
 
 # fetch deps & compile
